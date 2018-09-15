@@ -1,4 +1,4 @@
-require 'test_helper'
+require 'minitest/autorun'
 require_relative '../calculator'
 
 class PriceCalculatorTest < Minitest::Test
