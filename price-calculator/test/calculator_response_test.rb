@@ -1,7 +1,6 @@
-require 'test_helper'
-require_relative '../calculator'
+require_relative '../calculator_response'
 
-class PriceCalculatorTest < Minitest::Test
+class CalculatorResponseTest < Minitest::Test
   def setup
     @short_distance = Calculator.new(1, 1)
     @long_distance = Calculator.new(1000, 10_000)

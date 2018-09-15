@@ -1,3 +1,5 @@
+require 'ostruct'
+
 class Calculator
   METERS_IN_KILOMETER = 1000.0
   SECONDS_IN_MINUTE = 60.0
