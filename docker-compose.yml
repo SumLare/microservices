@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ride-info:
+    environment:
+      - GOOGLE_MAPS_API_KEY
+    build: ride-info
+  price-calculator:
+    build: price-calculator
+    depends_on:
+      - ride-info
+    ports:
+      - "$PORT:3000"

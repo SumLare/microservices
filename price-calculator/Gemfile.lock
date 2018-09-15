@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (10.0.2)
+    ethon (0.11.0)
+      ffi (>= 1.3.0)
+    ffi (1.9.25)
+    json (2.1.0)
+    minitest (5.11.3)
+    puma (3.12.0)
+    rack (2.0.5)
+    typhoeus (1.3.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  json (~> 2.1)
+  minitest
+  puma (~> 3.8)
+  rack (~> 2.0)
+  typhoeus (~> 1.3)
+
+BUNDLED WITH
+   1.16.1
